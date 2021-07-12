@@ -64,6 +64,18 @@
     &+.menu__list-item {
       padding-left: 20px;
     }
+
+    &.active a {
+      border-bottom: 2px solid #fff;
+    }
+  }
+
+  &__list-phone {
+    display: none;
+  }
+
+  &__btn {
+    display: none;
   }
 }
 
@@ -592,4 +604,4 @@
   }
 }
 
-//@import "media";
+@import "media";
